@@ -1,0 +1,19 @@
+.header {
+    background-color: green;
+}
+
+.nav {
+    background-color: red;
+}
+
+.body {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: purple;
+}
+
+.green {
+    color: green;
+}
