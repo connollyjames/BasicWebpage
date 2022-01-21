@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Relational Selectors</title>
+    <style>
+        h1 {
+            color: green;
+        }
+
+        h1 + p {
+            color: blue;
+        }
+
+        .redify > p {
+            color: red;
+        }
+
+        h2 ~ p {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am an h1, all h1s are green</h1>
+    <p>I follow an h1 so I am blue</p>
+    <p>I do not follow an h1 so I am not blue</p>
+
+    <div class="redify">
+        <p>I am a direct child of this redify div so I am red</p>
+        <div>
+            I am not a direct child of the redify div so I am not red
+        </div>
+    </div>
+
+    <div>
+        <h2>I am an h2</h2>
+        <p>I am on the same level as an h2 so I am purple</p>
+    </div>
+    <p>I am not on the same level as an h2 so I am not purple</p>
+</body>
+</html>
