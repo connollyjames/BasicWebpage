@@ -1,0 +1,19 @@
+.one {
+    font-size: 24px;
+}
+
+.two {
+    font-size: 1.5em;
+}
+
+.three {
+    font-size: 1.5rem;
+}
+
+.four {
+    font-size: 150%;
+}
+
+.five {
+    font-size: 18pt;
+}
