@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Multiple Selectors</title>
+    <style>
+        p.classred {
+            color: red;
+        }
+
+        h1, h2, h3 {
+            color: green;
+        }
+
+        h4, h1.classblue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>I am a normal paragraph</p>
+    <p class="classred">I am a red paragraph</p>
+
+    <h1>I am a green h1</h1>
+    <h2>I am a green h2</h2>
+    <h3>I am a green h3</h3>
+
+    <h4>I am a blue h4</h4>
+    <h1 class="classblue">I am a blue h1</h1>
+</body>
+</html>
