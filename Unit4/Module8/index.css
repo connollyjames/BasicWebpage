@@ -1,0 +1,13 @@
+body {
+    background-color: grey;
+}
+
+.postit {
+    font-size: 2em;
+    text-align: center;
+    width: 6em;
+    height: 6em;
+    background-color: yellow;
+    border: .1em solid black;
+    box-shadow: .1em .1em .1em #333;
+}
