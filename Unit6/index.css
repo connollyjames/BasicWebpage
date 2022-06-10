@@ -15,12 +15,37 @@ nav {
 }
 
 nav a {
-    font-size: 2rem;
+    font-size: min(2rem, 5vw); /* zerdle.net, see sources */
     margin: 1rem;
 }
 
 .main_box {
     background-color: #390900;
     font-size: 1.2rem;
-    color: grey;
+    color: darkgrey;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+.footnote {
+    vertical-align: super;
+    font-size: 1.2rem;
+}
+
+h1 {
+    clear: left;
+}
+
+.image_left {
+    float: left;
+    width: 15rem;
+    margin-left: .3rem;
+    margin-right: .5rem;
+}
+
+.image_right {
+    float: right;
+    width: 15rem;
+    margin-right: .3rem;
+    margin-left: .5rem;
 }
