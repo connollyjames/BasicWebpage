@@ -19,8 +19,9 @@ a {
 }
 
 nav a {
-    font-size: min(2rem, 5vw); /* zerdle.net, see sources */
-    margin: 1rem;
+    font-size: min(2rem, 4vw); /* zerdle.net, see sources */
+    margin: .5rem;
+    text-transform: uppercase;
 }
 
 .main_box {
