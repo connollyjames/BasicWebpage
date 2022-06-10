@@ -14,6 +14,10 @@ nav {
     text-align: center;
 }
 
+a {
+    color: rgb(0, 102, 204);
+}
+
 nav a {
     font-size: min(2rem, 5vw); /* zerdle.net, see sources */
     margin: 1rem;
