@@ -1,0 +1,26 @@
+body {
+    background-color: #c92100;
+}
+
+.title {
+    font-family: fantasy;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: .5rem;
+}
+
+nav {
+    background-color: #390900;
+    text-align: center;
+}
+
+nav a {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.main_box {
+    background-color: #390900;
+    font-size: 1.2rem;
+    color: grey;
+}
